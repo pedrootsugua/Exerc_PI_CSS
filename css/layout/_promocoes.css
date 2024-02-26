@@ -1,0 +1,16 @@
+.sc-promocoes {
+    width: 780px;
+    height: 650px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 50% 50%;
+}
+
+.txt-promocoes {
+    grid-column-start: 3;
+    grid-row-start: 2;
+    color: yellow;
+    font-size: 35px;
+    font-weight: bold;
+}
