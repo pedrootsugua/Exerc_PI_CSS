@@ -6,7 +6,6 @@ body {
 }
 
 .fundo-video {
-    background-color: red;
     position: absolute;
     z-index: -1;
     width: 100vw;
@@ -28,7 +27,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    background: linear-gradient(90deg, #040203 0%, rgba(0, 0, 0, 0.65) 49%, #040203 100%);
+    background: linear-gradient(90deg, #040203 0%, rgba(0, 0, 0, 0.55) 49%, #040203 100%);
 }
 
 .container {
@@ -36,8 +35,11 @@ body {
     width: 680px;
     height: 750px;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
     border-radius: 80px;
+    
     /* overflow: hidden; */
 }
 
@@ -46,3 +48,49 @@ body {
     height: 100px;
     margin: 30px 0;
 }
+
+.titulo {
+    color: var(--cor-texto);
+    font-size: 60px;
+    margin-bottom: 25px;
+}
+
+.texto-principal {
+    text-align: justify;
+    margin: 0 auto;
+    width: 70%;
+}
+
+p {
+    color: var(--cor-texto);
+    font-size: 16px;
+    margin: 20px 0;
+    /* line-height: 1.1; */
+}
+
+h2 {
+    color: var(--cor-texto);
+    font-size: 30px;
+    margin: 20px 0;
+}
+
+button {
+    width: 150px;
+    height: 70px;
+    border: none;
+    border-radius: 20px;
+    margin: 13px;
+    /* padding: 20px 50px; */
+
+    background-color: var(--cor-botao);
+    color: var(--cor-texto);
+    cursor: pointer;
+}
+
+button a {
+    font-size: 30px;
+    text-decoration: none;
+    color: var(--cor-texto);
+}
+
+
