@@ -2,7 +2,7 @@
     color: var(--cor-vermelho);
 } */
 
-.titulo, h2, button {
+.titulo, .titulo-manchester, h2, button {
     font-family: "UnifrakturCook", cursive;
     font-weight: 700;
     font-style: normal;
